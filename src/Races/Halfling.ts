@@ -16,14 +16,6 @@ class Halfling extends Race {
   static createdRacesInstances(): number {
     return Halfling.count;
   }
-
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
 }
 
 export default Halfling;

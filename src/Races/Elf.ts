@@ -16,14 +16,6 @@ class Elf extends Race {
   static createdRacesInstances(): number {
     return Elf.count;
   }
-
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
 }
 
 export default Elf;

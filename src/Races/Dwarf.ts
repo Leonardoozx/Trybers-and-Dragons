@@ -16,14 +16,6 @@ class Dwarf extends Race {
   static createdRacesInstances(): number {
     return Dwarf.count;
   }
-
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
 }
 
 export default Dwarf;

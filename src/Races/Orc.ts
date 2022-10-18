@@ -16,14 +16,6 @@ class Orc extends Race {
   static createdRacesInstances(): number {
     return Orc.count;
   }
-
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
 }
 
 export default Orc;
