@@ -7,7 +7,7 @@ class PVE extends Battle {
   constructor(
     private _player: Character | Fighter,
     private _monsters:
-    Monster[] | Fighter[] | SimpleFighter[] = [new Monster()],
+    Monster[] | Fighter[] | SimpleFighter[],
   ) {
     super(_player);
   }
